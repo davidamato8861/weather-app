@@ -1,6 +1,6 @@
 ## Weather App
 
-Simply write in the box the borough in New York to find out the weather in that borough!
+Simply write a New York borough in the box to find out the weather!
 
 
 Run `bundle install` to install gems.
