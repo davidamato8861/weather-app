@@ -10,9 +10,10 @@ class Location
       @location = location 
   end
   
-  
-  
-  
-  
+  def get_weather
+    
+    
+    
+  end
   
 end
