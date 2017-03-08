@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    chronic (0.10.2)
     coderay (1.1.1)
+    json (2.0.3)
+    map (6.6.0)
     method_source (0.8.2)
-    mini_portile2 (2.1.0)
-    nokogiri (1.7.0.1)
-      mini_portile2 (~> 2.1.0)
     pry (0.10.4)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -21,8 +21,10 @@ GEM
       tilt (>= 1.3, < 3)
     slop (3.6.0)
     tilt (2.0.6)
-    yahoo-weather (1.2.0)
-      nokogiri (>= 1.4.1)
+    weather-api (1.4.0)
+      chronic (~> 0.10.2)
+      json
+      map (~> 6.6.0)
 
 PLATFORMS
   ruby
@@ -31,7 +33,7 @@ DEPENDENCIES
   pry
   shotgun
   sinatra
-  yahoo-weather
+  weather-api
 
 BUNDLED WITH
    1.13.2
