@@ -5,11 +5,12 @@ Yahoo.authenticate(ENV["YAHOO_ID"], ENV["YAHOO_SECRET"])
 class Location
   attr_reader :temp
   
+  
   def initialize(temp,location)
       @temp = temp
       @location = location 
   end
-  
+  get 
   
   
   
