@@ -2,14 +2,18 @@
 <html>
   <head>
     <style>
-      h1 {
+      h1.serif {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
 }
-input {
-  text-align: center;
+input[type="text"] {
+   display: block;
+  margin: auto;
 }
-      
+ input[type="submit"] {
+   display: block;
+  margin: auto;
+}     
     </style>
     <meta charset="UTF-8">
     <title>title</title>
@@ -29,7 +33,7 @@ input {
     
     <div class="container-fluid">
       <form>
-        <h1>Where do you want to know the weather?</h1>
+        <h1 class="serif" >Where do you want to know the weather?</h1>
         <input type="text" value="">`
       <input type="submit" value="submit"> 
       </form>
