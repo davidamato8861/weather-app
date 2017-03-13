@@ -8,7 +8,7 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
-  post '/result' do
+  post '/results' do
     
     @weather = params[@response]
     erb :results
