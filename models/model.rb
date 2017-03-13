@@ -4,6 +4,7 @@ require 'weather-api'
 
 class User_Weather
   def initialize()
+    
 end                 
 
 
