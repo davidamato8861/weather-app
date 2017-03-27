@@ -9,7 +9,7 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   post '/result' do
-    
+    puts params
     @weather = params[@response]
     erb :result
   end
