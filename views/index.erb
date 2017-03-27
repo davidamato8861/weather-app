@@ -35,13 +35,13 @@ h3 {
   <body>
     <div class="container-fluid">
 
-        <h1 class="serif" >Type in a location, get the weather!</h1>
-        <form method="post" action="/result">
-      <h3>Where do you wanna know the weather?</h3> <input type="text" value="">`
+      <!--  <h1 class="serif" >Type in a location, get the weather!</h1>-->
+      <!--  <form method="post" action="/result">-->
+      <!--<h3>Where do you wanna know the weather?</h3> <input type="text" value="response">-->
 
-      <form>
+      <form method="post" action="/result">
         <h1 class="serif" >Type in a location, get the weather!</h1> 
-        <input type="text" value="">
+        <input type="text" name="response">
       <input type="submit" value="Submit"> 
       </form>
     </div>
